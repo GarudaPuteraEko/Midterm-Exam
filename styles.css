@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #333;
+    overflow-x: hidden; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    color: white;
+    z-index: 1000;
+}
+.navbar .logo img {
+    height: 80px; 
+    width: 230px;
+    margin-left: 100px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 240; 
+    margin-top: 40;
+    font-size: 23px;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.navbar .cta {
+    background-color: #5468E7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.header {
+    background: url('images/christina.png') no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px; 
+    position: relative;
+}
+.header h1 {
+    font-size: 4.3em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.header .input-group {
+    display: flex;
+    align-items: center;
+}
+.header input[type="email"] {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.header i {
+    margin-right: 40px;
+    margin-left: -70px;
+    color: #6e5858;
+    cursor: pointer;
+}
+.header button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #5468E7;
+    color: white;
+    cursor: pointer;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.section h2 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1.5em;
+    margin-bottom: 80px;
+}
+.section a {
+    font-size: 1.5em;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.section .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section .content .text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+.section .content .image {
+    flex: 1;
+    padding: 20px;
+}
+.section .section-kiri {
+    margin-left: 100px;
+}
+.section .section-kanan {
+    margin-right: 100px;
+}
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+.testimonials h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.testimonials .testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .testimonial img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.footer {
+    background-color: #282444;
+    color: #5468E7;
+    padding: 40px 20px;
+    text-align: left;
+}
+.footer .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .column {
+    flex: 1;
+    padding: 20px;
+    max-width: 200px;
+}
+.footer .column h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.footer .column p, .footer .column a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+.footer .column a:hover {
+    text-decoration: underline;
+}
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer .columns .column h1 {
+    color: white;
+}
+.copyright {
+    color: white;
+}
